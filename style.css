@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 30px;
+}
+div.not{
+    border-radius: 10px;
+    border: 2px solid black;
+   margin-bottom: 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 10px;
+}
+.not h4{
+    border-radius: 10px;
+    padding:5px;
+    display: inline-block;
+    }
+.not span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.not h2{
+    display: inline-block;
+}
+.container input{
+outline: none;
+border: none;
+border-bottom: 2px solid black;
+width: 250px;
+height: fit-content;
+font-size: 22px;
+}
+.container input::placeholder{
+   color: black;
+   font-size: 26px;
+}
+.entry button{
+    border: none;
+    background: none;
+    margin-left: 20px;
+    transform:scale(1.2) rotate(-90deg);
+    transition: .5s;
+}
+.entry button:hover{
+    transform: scale(1.6) rotate(0deg);
+    transition: .5s; 
+}
+#notes div:nth-child(even){
+    background-color: rgb(211, 211, 211);
+}
+#notes{
+    height: 500px;
+    overflow-y: scroll;
+}
+.clearAll{
+    border: 2px solid black;
+    background: none;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    transition: .5s;
+}
+.clearAll:hover{
+    background-color: black;
+    color: white;
+}
